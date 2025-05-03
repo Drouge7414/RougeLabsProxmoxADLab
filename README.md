@@ -1,6 +1,33 @@
 # RougeLabsProxmoxADLab
 🚨 **A full-scale cybersecurity lab powered by Proxmox, designed for both offensive (red team) and defensive (blue team) training.** This lab simulates a real-world enterprise network with automated Windows and Linux deployments, VLAN segmentation, and attack/defense scenarios.
 
+## 🚥 Disclaimer
+
+**This repository is provided for educational and research purposes only.**
+
+By using this lab, you agree to:
+
+- ✅ Only use it in environments you own/control or have explicit written permission to test on.
+- ❌ Not use any tools, scripts, or methods in this repository for unauthorized activities.
+- ❌ Not use it for any commercial purposes or redistribution without proper attribution.
+
+**Unauthorized use of cybersecurity tools and methods is illegal and unethical. You are fully responsible for ensuring that your use complies with all applicable laws and regulations.**
+
+---
+
+## 📜 License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+See the full license text in [LICENSE](./LICENSE) and more info at [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/).
+
+---
+
+## 📝 Author
+
+**RougeLabs (Dylan Barrett)**  
+[Visit Portfolio](https://dylanbarrett.work)
+
 ---
 
 ## 🔥 What's Included

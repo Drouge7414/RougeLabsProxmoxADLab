@@ -45,13 +45,15 @@
 ```mermaid
 graph TD;
     Internet --> Firewall
-    Firewall --> DMZ
+    Firewall --> DMZ_VLAN
     Firewall --> Internal_Network
-    DMZ --> LAMP_Server
+    Firewall --> IIoT_VLAN
+    DMZ_VLAN --> LAMP_Server
     Internal_Network --> AD_DC
     Internal_Network --> Exchange_Server
     Internal_Network --> BlueTeam_Box
     Internal_Network --> Windows10_Client
     Internal_Network --> Windows11_Client
     Internal_Network --> RedTeam_Box
-    Internal_Network --> IIoT_VLAN
+    IIoT_VLAN --> IIoT_Device1
+    IIoT_VLAN --> IIoT_Device2
